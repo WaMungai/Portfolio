@@ -78,7 +78,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://github.com/WaMungai/Portfolio"
+                href="https://wamungai.showwcase.com/shows"
                 target="_blank"
                 rel="noreferrer"
               >

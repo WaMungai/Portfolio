@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Card, Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { ImPointRight } from "react-icons/im";
 
 function HomeSection() {
   return (
@@ -13,7 +14,7 @@ function HomeSection() {
         <Row>
           <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              ABOUT <span className="purple"> JOYCE </span> 
+              ABOUT <span className="purple"> ME </span> 
             </h1>
             <p className="home-about-body">
               I  am a pragmatic programmer who is able to work on all aspects of a web application from designing the  user interface to handling server-side logic and database management.
@@ -35,8 +36,34 @@ function HomeSection() {
               </i>
             </p>
           </Col>
-          
+          <Card className="quote-card-view">
+         <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+            Apart from coding, some other activities that I love to do!
+          </p>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Playing Board Games
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Writing Tech Blogs
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling
+            </li>
+          </ul>
+
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "I code, thats my super power!"{" "}
+          </p>
+          <footer className="blockquote-footer">Joyce Mungai</footer>
+        </blockquote>
+         </Card.Body>
+          </Card>
+
         </Row>
+     
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>

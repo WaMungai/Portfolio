@@ -3,7 +3,7 @@ import './App.css';
 import PreLoader from './components/Libaries/PreLoader';
 import Navbar from './components/Navbar';
 import Home from './components/Home/index.jsx';
-import About from './components/About';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import {BrowserRouter, Route, Routes, Navigate} from 'react-router-dom'
@@ -31,7 +31,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/project" element={<Projects />}/>
-        <Route path="/about" element={<About />}/>
+        <Route path="/about" element={<Skills />}/>
         <Route path="*" element={<Navigate to="/" />}/>
       </Routes>
       <Footer />

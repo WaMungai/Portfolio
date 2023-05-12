@@ -8,8 +8,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Particle from "../Libaries/Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://github.com/WaMungai/Portfolio/blob/main/portfolio/src/Assets/JOYCE_MUNGAI_RESUME_2023.pdf";
+//onst resumeLink =
+  //"https://github.com/WaMungai/Portfolio/main/portfolio/src/Assets/JOYCE_MUNGAI_RESUME_2023.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -35,7 +35,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
+          <Document  className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>

@@ -8,7 +8,7 @@ function Title() {
         strings: [
           "A Software Engineer",
           "A Full Stack Developer",
-          " Scrum Master",
+          "A Scrum Master",
           "An Open Source Contributor",
         ],
         autoStart: true,

@@ -6,7 +6,6 @@ import Home from './components/Home/index.jsx';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Resume from './components/Resume';
 import {BrowserRouter, Route, Routes, Navigate} from 'react-router-dom'
 import ScrollToTop from './components/Libaries/ScrollToTop';
 import './style.css'
@@ -33,7 +32,6 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/project" element={<Projects />}/>
         <Route path="/about" element={<About />}/>
-        <Route path="/resume" element={<Resume />}/>
         <Route path="*" element={<Navigate to="/" />}/>
       </Routes>
       <Footer />

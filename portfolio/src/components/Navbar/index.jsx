@@ -64,7 +64,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+           {/**  <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -75,7 +75,7 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item>*/}
             <Nav.Item>
               <Nav.Link
                 href="https://wamungai.showwcase.com/shows"
@@ -86,7 +86,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             
-            <Nav.Item className="fork-btn">
+       {/** <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/WaMungai/Portfolio"
                 target="_blank"
@@ -95,7 +95,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 Github
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}    
 
             <Nav.Item className="fork-btn">
             <Button

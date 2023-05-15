@@ -29,7 +29,9 @@ function Home() {
                 <Title />
               </div>
             </Col>
-
+            <p style={{ color: "rgb(155 126 172)" }}>
+            "I code, thats my super power!"{" "}
+          </p>
           
           </Row>
         </Container>

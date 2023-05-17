@@ -97,7 +97,7 @@ function NavBar() {
               </Button>
             </Nav.Item> */}    
 
-            <Nav.Item className="fork-btn">
+         {/**  <Nav.Item className="fork-btn">
             <Button
             variant="primary"
             href={pdf}
@@ -107,7 +107,7 @@ function NavBar() {
             &nbsp;Download CV
           </Button>
           
-            </Nav.Item>
+            </Nav.Item>*/}  
           </Nav>
         </Navbar.Collapse>
       </Container>

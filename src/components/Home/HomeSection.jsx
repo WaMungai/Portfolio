@@ -17,23 +17,12 @@ function HomeSection() {
               ABOUT <span className="purple"> ME </span> 
             </h1>
             <p className="home-about-body">
-              I  am a pragmatic programmer who is able to work on all aspects of a web application from designing the  user interface to handling server-side logic and database management.
+            I am a seasoned software engineer turned project manager whose extensive experience in the technology industry has equipped me with a deep understanding of software development methodologies, coding languages, and emerging technologies.
               <br /> 
-              My skillset makes me valuable in a wide range of industries and environments, including startups, small businesses, and large corporations.
+              My expertise extends beyond technical aspects, as I am adept at managing project budgets, resource allocation, and risk mitigation strategies.My strong analytical and problem-solving skills enable me to identify potential challenges early on and implement proactive measures to address them, ensuring project success.
               <br />
              
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Angular.js</b>
-              </i>
+              In addition to my technical prowess, I possess excellent communication and interpersonal skills, allowing me to effectively liaise with stakeholders, clients, and team members. My ability to translate complex technical concepts into understandable language helps facilitate discussions and decision-making processes.
             </p>
           </Col>
           <Card className="quote-card-view">

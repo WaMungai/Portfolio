@@ -7,9 +7,9 @@ function Title() {
       options={{
         strings: [
           "A Software Engineer",
-          "A Full Stack Developer",
+          "A Project Manager",
           "A Scrum Master",
-          "An Open Source Contributor",
+          //"An Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
